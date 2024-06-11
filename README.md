@@ -1,4 +1,4 @@
-## net-cat
+## NET-CAT
 
 ### Objectives
 
@@ -35,7 +35,7 @@ Your project must work in a similar way that the original  NetCat works, in othe
 
 - You have to be able to handle the errors from server side and client side
 
-### Allowed Packages
+### Allowed packages
 
 - io
 - log
@@ -177,22 +177,3 @@ _)      \.___.,|     .'
 [2020-01-20 16:04:57][Yenlik]:bye-bye!
 [2020-01-20 16:04:57][Lee]:^C
 ```
-
-### Bonus
-
-- Terminal UI (you are allowed to use only this package : https://github.com/jroimartin/gocui).
-- Find a way to save all the logs into a file.
-- Creating more than 1 group chat.
-
-This project will help you learn about :
-
-- Manipulation of structures.
-- [Net-Cat](https://www.commandlinux.com/man-page/man1/nc.1.html)
-- TCP/UDP
-  - TCP/UDP connection
-  - TCP/UDP socket
-- [Go concurrency](https://golang.org/doc/#go_concurrency_patterns)
-  - [Channels](https://tour.golang.org/concurrency/2)
-  - [Goroutines](https://tour.golang.org/concurrency/1)
-- Mutexes
-- IP and [ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
