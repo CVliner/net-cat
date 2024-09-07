@@ -23,32 +23,6 @@ Your project must work in a similar way that the original  NetCat works, in othe
 - If a Client leaves the chat, the rest of the Clients must not disconnect.
 - If there is no port specified, then set as default the port 8989. Otherwise, program must respond with usage message: `[USAGE]: ./TCPChat $port`
 
-### Instructions
-
-- Your project must be written in **Go**
-- Start TCP server, listen and accept connections
-- Your project must have Go-routines
-- Your project must have channels or Mutexes
-- Maximum 10 connections
-- The code must respect the [**good practices**](../good-practices/README.md)
-- It is recommended to have **test files** for [unit testing](https://go.dev/doc/tutorial/add-a-test) both the server connection and the client.
-
-- You have to be able to handle the errors from server side and client side
-
-### Allowed packages
-
-- io
-- log
-- os
-- fmt
-- net
-- sync
-- time
-- bufio
-- errors
-- strings
-- reflect
-
 ### Usage
 
 ```console
